@@ -5,7 +5,12 @@ const pageTitle = "Florian Clanet's Blog";
 
 <Layout pageTitle={pageTitle}>
   <div class="gif">
-    <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp" />
+    <img
+      width="300"
+      height="259"
+      alt="RaccoonSpaceGif"
+      src={`${import.meta.env.BASE_URL}/space.webp`}
+    />
   </div>
   <h1>Florian Clanet</h1>
   <span class="badge">Prototype Architect (Cloud and AIML Enthusiast)</span>
@@ -25,7 +30,7 @@ const pageTitle = "Florian Clanet's Blog";
     another exciting dimension to my skill set.
   </p>
   <div class="center">
-    <a href="/works/">
+    <a href={`${import.meta.env.BASE_URL}/works/`}>
       <button class="btn">My portfolio</button>
     </a>
   </div>

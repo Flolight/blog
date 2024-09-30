@@ -249,18 +249,18 @@ footer {
 
 
 .git-icon {
-    content: url("/github-mark-white.svg");
+    content: url("/blog/github-mark-white.svg");
 }
 .x-icon {
-    content: url("/X_logo_2023.svg.webp");
+    content: url("/blog/X_logo_2023-white.svg.webp");
 }
 
 .mail-icon {
-    content: url("/mail-white.svg");
+    content: url("/blog/mail-white.svg");
 }
 
 .linked-in {
-    content: url("/li-in-white.png");
+    content: url("/blog/li-in-white.png");
 }
 
 /* 404 */
@@ -325,15 +325,18 @@ html.light {
 }
 
 .light .git-icon {
-    content: url("/github-mark.svg");
+    content: url("/blog/github-mark.svg");
 }
 
 .light .mail-icon {
-    content: url("/mail.svg");
+    content: url("/blog/mail.svg");
 }
 
 .light .linked-in {
-    content: url("/li-in.png");
+    content: url("/blog/li-in.png");
+}
+.light .x-icon {
+    content: url("/blog/X_logo_2023.svg.webp");
 }
 
 .light .badge__link {

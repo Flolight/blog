@@ -4,11 +4,11 @@ import ThemeIcon from "./ThemeIcon.astro";
 
 <div class="navbar">
   <div class="navbar__title">
-    <a href="/">Florian Clanet's Cloud Home</a>
+    <a href={`${import.meta.env.BASE_URL}`}>Florian Clanet's Cloud Home</a>
   </div>
   <div class="navbar__menu">
-    <a href="/works/">Works</a>
-    <a href="/posts/">Posts</a>
+    <a href={`${import.meta.env.BASE_URL}/works/`}>Works</a>
+    <a href={`${import.meta.env.BASE_URL}/posts/`}>Posts</a>
     <a href="https://github.com/Flolight" target="_blank">GitHub</a>
     <ThemeIcon />
   </div>
