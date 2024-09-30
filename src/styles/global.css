@@ -251,6 +251,9 @@ footer {
 .git-icon {
     content: url("/github-mark-white.svg");
 }
+.x-icon {
+    content: url("/X_logo_2023.svg.webp");
+}
 
 .mail-icon {
     content: url("/mail-white.svg");
